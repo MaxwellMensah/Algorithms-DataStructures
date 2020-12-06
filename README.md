@@ -4,7 +4,7 @@ Hold my beer😊
 # Linear Search Algorithm
 In a linear search, we search an element in a given array by traversing the array from the starting till the desired element or value is found.
 
--Time Complexity: O(n)
+*Time Complexity: O(n)*
 
 # Implementing Linear Search
 Following are the steps of implementation that we will be following:

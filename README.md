@@ -3,7 +3,7 @@ In a linear search, we search an element in a given array by traversing the arra
 
 **Time Complexity**: **O(n)**
 
-# Implementing Linear Search
+## Implementing Linear Search
 Following are the steps of implementation that we will be following:
 
 1. Traverse the array using a for loop.

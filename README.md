@@ -19,24 +19,11 @@ To search the number 5 in the array given below, linear search will go step by s
 
 <img src="https://www.studytonight.com/data-structures/images/linear-search-array.png" width="400" height="150" align="center">
 
-**Code for Linear Search
-/* 
-    below we have implemented a simple function 
-    for linear search in C
-    
-    - values[] => array with all the values
-    - target => value to be found
-    - n => total number of elements in the array
-*/
+## How it works <br/>
 
-int linearSearch(int values[], int target, int n)
-{
-    for(int i = 0; i < n; i++)
-    {
-        if (values[i] == target) 
-        {       
-            return i; 
-        }
-    }
-    return -1;
-}
+*Input: values[] = {5, 34, 65, 12, 77, 35} <br/>
+target = 77  <br/>
+Output: 4    <br/><br/>
+Input: values[] = {101, 392, 1, 54, 32, 22, 90, 93} <br/>
+target = 200 <br/>
+Output: -1 (not found)*

@@ -1,6 +1,3 @@
-# Algorithms-DataStructures
-
-Hold my beer😊
 # Linear Search Algorithm
 In a linear search, we search an element in a given array by traversing the array from the starting till the desired element or value is found.
 

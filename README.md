@@ -24,3 +24,17 @@ Output: 4    <br/><br/>
 Input: values[] = {101, 392, 1, 54, 32, 22, 90, 93} <br/>
 target = 200 <br/>
 Output: -1 (not found)*
+
+# CODE for Linear Search Algorithm
+
+int LinearSearch(int values[], int target, int n) <br/>
+for(int i = 0; i <= n; i++) <br/>
+{                           <br/>
+    if(values[i] == target) <br/>
+    {
+        return i;           <br/>
+    }                       <br/>
+}                           <br/>
+else {                      <br/>
+    return -1;     // target or value not found          <br/>
+}                           <br/>

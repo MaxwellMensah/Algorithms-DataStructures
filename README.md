@@ -28,13 +28,14 @@ Output: -1 (not found)*
 # CODE for Linear Search Algorithm
 
 int LinearSearch(int values[], int target, int n) <br/>
-for(int i = 0; i <= n; i++) <br/>
-{                           <br/>
-    if(values[i] == target) <br/>
-    {
-        return i;           <br/>
-    }                       <br/>
+{<br/>
+    for&nbsp;(int i = 0; i <= n; i++) <br/>
+&nbsp;&nbsp;    {                           <br/>
+&nbsp;&nbsp;&nbsp;       if&nbsp;(values[i] == target) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    { <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        return i;           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    }                       <br/>
 }                           <br/>
-else {                      <br/>
-    return -1;     // target or value not found          <br/>
+else &nbsp;{                      <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   return -1;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // target or value not found          <br/>
 }                           <br/>

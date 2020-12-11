@@ -36,6 +36,5 @@ int LinearSearch(int values[], int target, int n) <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        return i;           <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;    }                       <br/>
 }                           <br/>
-else &nbsp;{                      <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   return -1;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // target or value not found          <br/>
 }                           <br/>

@@ -14,7 +14,7 @@ Following are the steps of implementation that we will be following:
 
 To search the number 5 in the array given below, linear search will go step by step in a sequential order starting from the first element in the given array
 
-<img src="https://www.studytonight.com/data-structures/images/linear-search-array.png" width="400" height="150" align="center">
+<img src="https://www.studytonight.com/data-structures/images/linear-search-array.png" width="380" height="150" align="center">
 
 ## How it works <br/>
 
